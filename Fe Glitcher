@@ -1,7 +1,5 @@
 sethiddenproperty(game.Players.LocalPlayer, "MaximumSimulationRadius", 999999999999999999999999) --[[SYNAPSE ONLY DELETE THIS IF YOUR NOT USING SYNAPSE]]
-sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 999999999999999999999999) --[[SYNAPSE ONLY DELETE THIS IF YOUR NOT USING SYNAPSE]]
 
-Net Bypass: https://pastebin.com/raw/fXwQRn7f
 --Hats you need:
 --https://www.roblox.com/catalog/4820152700/Shadow-Blademasters-Blade
 --https://www.roblox.com/catalog/4524991457/Blademasters-Blade
