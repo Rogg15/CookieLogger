@@ -137,7 +137,7 @@ function XanaxUILib:CreateWindow(WindowText)
 	TabBtnHolder.Name = "TabBtnHolder"
 	TabBtnHolder.Parent = TabBtns
 	TabBtnHolder.Active = true
-	TabBtnHolder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	TabBtnHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TabBtnHolder.BackgroundTransparency = 1.000
 	TabBtnHolder.BorderSizePixel = 0
 	TabBtnHolder.Position = UDim2.new(0, 0, 0.195999995, 0)
@@ -171,7 +171,7 @@ function XanaxUILib:CreateWindow(WindowText)
 	
 	UiTitle.Name = "UiTitle"
 	UiTitle.Parent = Top
-	UiTitle.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+	UiTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UiTitle.BackgroundTransparency = 1.000
 	UiTitle.Size = UDim2.new(0, 421, 0, 26)
 	UiTitle.Font = Enum.Font.GothamSemibold
@@ -182,7 +182,7 @@ function XanaxUILib:CreateWindow(WindowText)
 	
 	TabTxt.Name = "TabTxt"
 	TabTxt.Parent = Top
-	TabTxt.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+	TabTxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TabTxt.BackgroundTransparency = 1.000
 	TabTxt.Position = UDim2.new(0, 0, 0.866666675, 0)
 	TabTxt.Size = UDim2.new(0, 117, 0, 17)
@@ -193,7 +193,7 @@ function XanaxUILib:CreateWindow(WindowText)
 	
 	TabNameStatus.Name = "TabNameStatus"
 	TabNameStatus.Parent = Top
-	TabNameStatus.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+	TabNameStatus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TabNameStatus.BackgroundTransparency = 1.000
 	TabNameStatus.Position = UDim2.new(0.947743475, 0, 0, 0)
 	TabNameStatus.Size = UDim2.new(0, 22, 0, 26)
@@ -255,14 +255,14 @@ function XanaxUILib:CreateWindow(WindowText)
 		
 		BotomLien.Name = "BotomLien"
 		BotomLien.Parent = TabBtn
-		BotomLien.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		BotomLien.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 		BotomLien.BorderSizePixel = 0
 		BotomLien.Position = UDim2.new(0, 0, 1, 0)
 		BotomLien.Size = UDim2.new(1, 0, 0, 1)
 		
 		TopLien.Name = "TopLien"
 		TopLien.Parent = TabBtn
-		TopLien.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		TopLien.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 		TopLien.BorderSizePixel = 0
 		TopLien.Size = UDim2.new(1, 0, 0, 1)
 		if XanaxUILib.currentTab == nil then
