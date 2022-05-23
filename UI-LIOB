@@ -137,7 +137,7 @@ function XanaxUILib:CreateWindow(WindowText)
 	TabBtnHolder.Name = "TabBtnHolder"
 	TabBtnHolder.Parent = TabBtns
 	TabBtnHolder.Active = true
-	TabBtnHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TabBtnHolder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	TabBtnHolder.BackgroundTransparency = 1.000
 	TabBtnHolder.BorderSizePixel = 0
 	TabBtnHolder.Position = UDim2.new(0, 0, 0.195999995, 0)
