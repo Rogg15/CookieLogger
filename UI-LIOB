@@ -171,7 +171,7 @@ function XanaxUILib:CreateWindow(WindowText)
 	
 	UiTitle.Name = "UiTitle"
 	UiTitle.Parent = Top
-	UiTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	UiTitle.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
 	UiTitle.BackgroundTransparency = 1.000
 	UiTitle.Size = UDim2.new(0, 421, 0, 26)
 	UiTitle.Font = Enum.Font.GothamSemibold
