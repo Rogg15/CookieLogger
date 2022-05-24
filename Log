@@ -126,7 +126,7 @@ function lib:Window(text, preset, closebind)
     Title.Size = UDim2.new(0, 200, 0, 23)
     Title.Font = Enum.Font.GothamSemibold
     Title.Text = "Xscrobic"
-    Title.TextColor3 = Color3.fromRGB(68, 68, 68)
+    Title.TextColor3 = Color3.fromRGB(192, 0, 0)
     Title.TextScaled = true
     Title.TextSize = 12.000
     Title.TextXAlignment = Enum.TextXAlignment.Left
