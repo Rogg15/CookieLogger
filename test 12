@@ -1,0 +1,3 @@
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+    table.insert(players,v.Name)
+end
